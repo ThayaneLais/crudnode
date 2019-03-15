@@ -1,0 +1,21 @@
+{
+  "name": "crudnodejs",
+  "version": "1.0.0",
+  "description": "CRUD feito em NodeJS juntamente com o banco de dados MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thayane Lais e Larissa Georgina",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-load": "^1.1.16",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.19",
+    "router": "^1.3.3"
+  }
+}

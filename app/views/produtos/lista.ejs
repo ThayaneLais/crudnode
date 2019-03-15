@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Listagem de Produtos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>LISTAGEM DE PRODUTOS CADASTRADOS</h1>
+    <ul>
+        <% userlist.forEach(function(user){ %>
+        <li><%= user.nome %></li>  
+        <li><%= user.Descricao%></li>
+        <li><%= user.preco %></li>
+        <%})%>  
+    </ul>
+</body>
+</html>
